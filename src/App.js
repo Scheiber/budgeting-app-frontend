@@ -1,21 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src="/wordmark.png" className="App-logo" alt="logo" />
+        <p>Welcome to the future home of Allocate.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/scheiber/allocate"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Find out more.
         </a>
       </header>
     </div>
