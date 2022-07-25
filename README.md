@@ -1,5 +1,8 @@
 # Allocate
-## A budgeting app for the rest of us.
+
+![Allocate Wordmark](https://user-images.githubusercontent.com/794551/180706032-72effbe5-0b03-42f6-9086-dc2b14781b30.png)
+
+A budgeting app for the rest of us.
 
 ## Links
 
