@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "ChunkFive-Regular";
+  font-family: "ChunkFive";
   src: local("ChunkFive-Regular"),
     url(./fonts/ChunkFive-Regular.otf) format("opentype");
 }
@@ -32,7 +32,7 @@ body {
 }
 
 button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   border: none;
   color: white;
   font-weight: bold;
@@ -83,11 +83,11 @@ button:hover {
 
 h1,
 h2 {
-  font-family: ChunkFive-Regular;
+  font-family: ChunkFive;
 }
 
 a {
-  color: lime;
+  color: rgb(98, 215, 117);
 }
 
 a:hover {
