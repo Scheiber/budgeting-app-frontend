@@ -1,5 +1,9 @@
-.positiveBalance {
+.aboveOneThousandBalance {
   color: rgb(144, 255, 129);
+}
+
+.positiveBalance {
+  color: rgb(255, 255, 255);
 }
 
 .negativeBalance {

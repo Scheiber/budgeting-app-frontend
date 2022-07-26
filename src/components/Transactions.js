@@ -36,7 +36,11 @@ function Transactions() {
   const bankAccountSum = getTotal();
 
   const balanceColor = (bankAccountSum) => {
-    return bankAccountSum >= 0 ? "positiveBalance" : "negativeBalance";
+    return bankAccountSum >= 1000
+      ? "aboveOneThousandBalance"
+      : bankAccountSum >= 0
+      ? "positiveBalance"
+      : "negativeBalance";
   };
 
   return (
