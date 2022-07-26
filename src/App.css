@@ -4,6 +4,18 @@
   font-size: 18px;
 }
 
+@font-face {
+  font-family: "ChunkFive-Regular";
+  src: local("ChunkFive-Regular"),
+    url(./fonts/ChunkFive-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "EksellDisplayWeb-Medium";
+  src: local("EksellDisplayWeb-Medium"),
+    url(./fonts/EksellDisplayWeb-Medium.otf) format("opentype");
+}
+
 body {
   background-color: #2b2b2b;
   color: white;
@@ -71,15 +83,9 @@ button:hover {
 
 h1,
 h2 {
-  font-family: ChunkFive;
+  font-family: ChunkFive-Regular;
 }
 
 a {
   color: lime;
-}
-
-@font-face {
-  font-family: "ChunkFive";
-  src: local("ChunkFive-Regular"),
-    url(./fonts/ChunkFive-Regular.otf) format("otf");
 }
