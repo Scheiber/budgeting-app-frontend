@@ -1,20 +1,28 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Index from "./pages/Index";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import New from "./pages/New";
+import Show from "./pages/Show";
+import Edit from "./pages/Edit";
+import Error from "./pages/Error";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="/wordmark.png" className="App-logo" alt="logo" />
-        <p>Welcome to the future home of Allocate.</p>
-        <a
-          className="App-link"
-          href="https://github.com/scheiber/allocate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Find out more.
-        </a>
-      </header>
+      <NavBar />
+      <br />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/transactions" element={<Index />} />
+        <Route path="/transactions/new" element={<New />} />
+        <Route path="/transactions/:index" element={<Show />} />
+        <Route path="/transactions/:index/edit" element={<Edit />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </div>
   );
 }
