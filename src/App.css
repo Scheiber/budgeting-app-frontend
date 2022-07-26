@@ -89,3 +89,7 @@ h2 {
 a {
   color: lime;
 }
+
+a:hover {
+  color: white;
+}
