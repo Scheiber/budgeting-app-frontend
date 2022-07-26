@@ -1,12 +1,15 @@
 import TransactionEditForm from "../components/TransactionEditForm";
+import "./Edit.css";
+import { Helmet } from "react-helmet";
 
-function Edit() {
-  return (
-    <div>
-      <h2>Edit transaction</h2>
-      <TransactionEditForm />
-    </div>
-  );
-}
+const Edit = () => (
+  <div>
+    <Helmet>
+      <title>Allocate | Edit Transaction</title>
+    </Helmet>
+    <h2>Edit this item:</h2>
+    <TransactionEditForm />
+  </div>
+);
 
 export default Edit;

@@ -1,12 +1,14 @@
 import "./Index.css";
 import Transactions from "../components/Transactions";
+import { Helmet } from "react-helmet";
 
-function Index() {
-  return (
-    <div>
-      <Transactions />
-    </div>
-  );
-}
+const Index = () => (
+  <div>
+    <Helmet>
+      <title>Allocate | Transactions</title>
+    </Helmet>
+    <Transactions />
+  </div>
+);
 
 export default Index;

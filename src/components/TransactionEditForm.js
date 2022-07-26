@@ -50,6 +50,7 @@ function TransactionEditForm() {
         <label htmlFor="item_name">Item Name: </label>
         <input
           id="item_name"
+          className="field"
           type="text"
           value={transaction.item_name}
           onChange={handleTextChange}
@@ -60,6 +61,7 @@ function TransactionEditForm() {
         <label htmlFor="amount">Amount: </label>
         <input
           id="amount"
+          className="field"
           type="number"
           required
           value={transaction.amount}
@@ -69,6 +71,7 @@ function TransactionEditForm() {
         <label htmlFor="date">Date: </label>
         <input
           id="date"
+          className="field"
           type="text"
           name="date"
           value={transaction.date}
@@ -80,6 +83,7 @@ function TransactionEditForm() {
         <label htmlFor="from">From: </label>
         <input
           id="from"
+          className="field"
           type="text"
           onChange={handleTextChange}
           value={transaction.from}
@@ -90,6 +94,7 @@ function TransactionEditForm() {
         <label htmlFor="category">Category: </label>
         <input
           id="category"
+          className="field"
           type="text"
           name="category"
           value={transaction.category}
@@ -101,6 +106,7 @@ function TransactionEditForm() {
 
         <input className="submit" type="submit" value="Update" />
       </form>
+      <br />
       <Link to={`/transactions/${index}`}>
         <button className="cancel">Cancel</button>
       </Link>
