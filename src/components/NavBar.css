@@ -1,0 +1,15 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.nav a:link {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+}
