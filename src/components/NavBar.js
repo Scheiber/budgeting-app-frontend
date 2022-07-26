@@ -6,7 +6,7 @@ function NavBar() {
     <nav className="nav">
       <Link to="/">
         <div className="logo">
-          <img alt="Home" src="./home.png" />
+          <img alt="Home" src={require("../images/home.png")} />
         </div>
       </Link>
       <Link to="/about">
