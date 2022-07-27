@@ -9,3 +9,23 @@
 .negativeBalance {
   color: rgb(255, 106, 106);
 }
+
+.transaction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.transaction a {
+  text-decoration: none;
+}
+
+.transaction a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .balance-header {
+    font-size: 30px;
+  }
+}

@@ -52,7 +52,7 @@ const Transactions = () => {
 
   return (
     <div>
-      <h2>
+      <h2 className="balance-header">
         Current Balance:{" "}
         <span className={balanceColor(bankAccountSum)}>
           {formatter.format(bankAccountSum)}
