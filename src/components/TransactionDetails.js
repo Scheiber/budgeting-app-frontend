@@ -39,19 +39,19 @@ const TransactionDetails = () => {
         <li>From: {transaction.from}</li>
         <li>Category: {transaction.category}</li>
       </ul>
-      <div className="showNavigation">
+      <div className="navigation-buttons">
         <div>
           <Link to={`/transactions`}>
-            <button>Back to transactions</button>
+            <button className="navigation-button">Back to transactions</button>
           </Link>
         </div>
         <div>
           <Link to={`/transactions/${index}/edit`}>
-            <button>Edit transaction</button>
+            <button className="navigation-button">Edit transaction</button>
           </Link>
         </div>
         <div>
-          <button className="delete" onClick={handleDelete}>
+          <button className="navigation-button delete" onClick={handleDelete}>
             Delete transaction
           </button>
         </div>

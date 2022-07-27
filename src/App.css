@@ -54,11 +54,6 @@ button:hover {
   color: white;
 }
 
-.showNavigation {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .trans-details {
   list-style: none;
   width: auto;

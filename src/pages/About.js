@@ -10,9 +10,7 @@ const About = () => (
     </HelmetProvider>
     <h2>Your Budget: Reimagined</h2>
     <div className="description">
-      <p className="description">
-        This is Allocate, your new best friend for tracking your budget.
-      </p>
+      <p>This is Allocate, your new best friend for tracking your budget.</p>
       <p>
         Money has such importance in our society, and the resposibilty of
         balancing a budget can be burdensome.
