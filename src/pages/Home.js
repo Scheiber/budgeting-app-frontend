@@ -13,6 +13,7 @@ const Home = () => (
     <h2>The budgeting app for the rest of us.</h2>
     <a href="/transactions">
       <img
+        class="splash"
         src="./splash.png"
         alt="Allocate Icon"
         title="The all ighty ollar?"

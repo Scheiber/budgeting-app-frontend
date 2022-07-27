@@ -1,0 +1,10 @@
+.description {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media (max-width: 767px) {
+  .wordmark {
+    height: 70px;
+  }
+}
