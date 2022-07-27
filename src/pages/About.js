@@ -26,8 +26,10 @@ const About = () => (
       Created by <a href="https://github.com/scheiber/">Jonathan Scheiber</a>.
     </p>
     <p>
-      <a href="https://github.com/scheiber/allocate">Source available</a> on
-      GitHub.
+      <a href="https://github.com/scheiber/allocate">
+        Technical information and source available
+      </a>{" "}
+      on GitHub.
     </p>
   </div>
 );
