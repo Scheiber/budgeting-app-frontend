@@ -3,6 +3,11 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 const API = process.env.REACT_APP_API_URL;
 
+const formatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
+
 const TransactionDetails = () => {
   const [transaction, setTransaction] = useState([]);
   let { index } = useParams();
@@ -35,7 +40,7 @@ const TransactionDetails = () => {
       <ul className="trans-details">
         <h2>{transaction.item_name}</h2>
         <li>Date: {transaction.date}</li>
-        <li>Amount: ${transaction.amount}</li>
+        <li>Amount: {formatter.format(transaction.amount)}</li>
         <li>From: {transaction.from}</li>
         <li>Category: {transaction.category}</li>
       </ul>

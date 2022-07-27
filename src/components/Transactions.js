@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 const API = process.env.REACT_APP_API_URL;
 
+const formatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
+
 const Transactions = () => {
   const [transactions, setTransactions] = useState([]);
 
@@ -20,7 +25,7 @@ const Transactions = () => {
         <Link to={`/transactions/${index}`}>
           <p>{transaction.item_name}</p>
         </Link>
-        <p>${transaction.amount}</p>
+        <p>{formatter.format(transaction.amount)}</p>
       </li>
     );
   });
@@ -47,7 +52,9 @@ const Transactions = () => {
     <div>
       <h2>
         Current Balance:{" "}
-        <span className={balanceColor(bankAccountSum)}>${bankAccountSum}</span>
+        <span className={balanceColor(bankAccountSum)}>
+          {formatter.format(bankAccountSum)}
+        </span>
       </h2>
       <ul className="transaction-ul">{transactionsList}</ul>
     </div>
