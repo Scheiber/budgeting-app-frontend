@@ -9,6 +9,7 @@ const Error = () => (
       </Helmet>
     </HelmetProvider>
     <h1>404: Not Found</h1>
+    <img alt="Error" className="error-image" src="/error.png" />
     <p className="error-text">
       The page you are looking for might have been removed, had its named
       changed, or is temporarily unavailable.

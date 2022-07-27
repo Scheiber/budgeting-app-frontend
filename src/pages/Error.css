@@ -4,3 +4,13 @@
   margin-left: 25%;
   margin-right: 25%;
 }
+
+@media (max-width: 767px) {
+  .error-image {
+    height: 200px;
+  }
+  .error-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
