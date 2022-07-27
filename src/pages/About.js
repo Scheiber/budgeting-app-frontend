@@ -1,10 +1,12 @@
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const About = () => (
   <div className="about">
-    <Helmet>
-      <title>Allocate | About</title>
-    </Helmet>
+    <HelmetProvider>
+      <Helmet>
+        <title>Allocate | About</title>
+      </Helmet>
+    </HelmetProvider>
     <h2>Your Budget: Reimagined</h2>
     <p>This is Allocate, your new best friend for tracking your budget. </p>
     <p>Choose a transaction. Edit it. Delete it. It's all up to you.</p>

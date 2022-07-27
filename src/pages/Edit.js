@@ -1,12 +1,14 @@
 import TransactionEditForm from "../components/TransactionEditForm";
 import "./Edit.css";
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const Edit = () => (
   <div>
-    <Helmet>
-      <title>Allocate | Edit Transaction</title>
-    </Helmet>
+    <HelmetProvider>
+      <Helmet>
+        <title>Allocate | Edit Transaction</title>
+      </Helmet>
+    </HelmetProvider>
     <h2>Edit this item:</h2>
     <TransactionEditForm />
   </div>

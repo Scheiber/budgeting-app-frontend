@@ -1,11 +1,13 @@
 import "./Home.css";
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const Home = () => (
   <div className="tagline">
-    <Helmet>
-      <title>Allocate | Home</title>
-    </Helmet>
+    <HelmetProvider>
+      <Helmet>
+        <title>Allocate | Home</title>
+      </Helmet>
+    </HelmetProvider>
     <h1>Take control of your budget.</h1>
     <h2>You've just discovered Allocate.</h2>
     <h2>The budgeting app for the rest of us.</h2>

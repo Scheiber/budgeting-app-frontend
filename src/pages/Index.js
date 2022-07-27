@@ -1,12 +1,14 @@
 import "./Index.css";
 import Transactions from "../components/Transactions";
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const Index = () => (
   <div>
-    <Helmet>
-      <title>Allocate | Transactions</title>
-    </Helmet>
+    <HelmetProvider>
+      <Helmet>
+        <title>Allocate | Transactions</title>
+      </Helmet>
+    </HelmetProvider>
     <Transactions />
   </div>
 );

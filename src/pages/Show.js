@@ -1,12 +1,14 @@
 import TransactionDetails from "../components/TransactionDetails";
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 function Show() {
   return (
     <div>
-      <Helmet>
-        <title>Allocate | Show Transaction</title>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Allocate | Show Transaction</title>
+        </Helmet>
+      </HelmetProvider>
       <h2>Transaction Details</h2>
       <TransactionDetails />
     </div>

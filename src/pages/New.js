@@ -1,13 +1,15 @@
 import TransactionNewForm from "../components/TransactionNewForm";
 import "./Edit.css";
-import { Helmet } from "react-helmet";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 function New() {
   return (
     <div>
-      <Helmet>
-        <title>Allocate | New Transaction</title>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Allocate | New Transaction</title>
+        </Helmet>
+      </HelmetProvider>
       <h2>Add a new item:</h2>
       <TransactionNewForm />
     </div>
