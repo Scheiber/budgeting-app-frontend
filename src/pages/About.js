@@ -12,7 +12,7 @@ const About = () => (
     <div className="description">
       <p>This is Allocate, your new best friend for tracking your budget.</p>
       <p>
-        Money has such importance in our society, and the resposibilty of
+        Money has such importance in our society, and the responsibility of
         balancing a budget can be burdensome.
       </p>
       <p>
