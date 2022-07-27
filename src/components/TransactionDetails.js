@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 const API = process.env.REACT_APP_API_URL;
 
-function TransactionDetails() {
+const TransactionDetails = () => {
   const [transaction, setTransaction] = useState([]);
   let { index } = useParams();
   const navigate = useNavigate();
@@ -58,6 +58,6 @@ function TransactionDetails() {
       </div>
     </div>
   );
-}
+};
 
 export default TransactionDetails;

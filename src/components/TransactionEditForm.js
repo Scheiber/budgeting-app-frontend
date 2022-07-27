@@ -4,7 +4,7 @@ import axios from "axios";
 
 const API = process.env.REACT_APP_API_URL;
 
-function TransactionEditForm() {
+const TransactionEditForm = () => {
   const navigate = useNavigate();
   let { index } = useParams();
 
@@ -112,6 +112,6 @@ function TransactionEditForm() {
       </Link>
     </div>
   );
-}
+};
 
 export default TransactionEditForm;

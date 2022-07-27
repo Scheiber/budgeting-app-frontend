@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 const API = process.env.REACT_APP_API_URL;
 
-function Transactions() {
+const Transactions = () => {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
@@ -52,6 +52,6 @@ function Transactions() {
       <ul className="transaction-ul">{transactionsList}</ul>
     </div>
   );
-}
+};
 
 export default Transactions;
