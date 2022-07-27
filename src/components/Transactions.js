@@ -21,7 +21,9 @@ const Transactions = () => {
   const transactionsList = transactions.map((transaction, index) => {
     return (
       <li className="transaction" key={index}>
-        <p>{transaction.date}</p>
+        <p>
+          <strong>{transaction.date}</strong>
+        </p>
         <Link to={`/transactions/${index}`}>
           <p>{transaction.item_name}</p>
         </Link>
@@ -56,7 +58,7 @@ const Transactions = () => {
           {formatter.format(bankAccountSum)}
         </span>
       </h2>
-      <ul className="transaction-ul">{transactionsList}</ul>
+      <ul>{transactionsList}</ul>
     </div>
   );
 };

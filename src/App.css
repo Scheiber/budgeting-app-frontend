@@ -22,15 +22,6 @@ body {
   background-size: auto;
 }
 
-.transaction {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.transaction a:hover {
-  color: white;
-}
-
 button {
   background-color: #4caf50;
   border: none;
