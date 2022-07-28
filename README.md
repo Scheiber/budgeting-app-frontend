@@ -24,6 +24,7 @@ It's all up to you. The possibilities are endless.
 
 - Customized favicon.
 - Customized font.
+- Customized [error page](https://allocate.netlify.app/error).
 - Added "[About](https://allocate.netlify.app/about)" page with details of project and credits.
 - Formats and displays transaction currency amounts correctly using [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat).
 - Dynamic page title change based on current route accomplished with [react-helmet-async](https://www.npmjs.com/package/react-helmet-async).
