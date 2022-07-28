@@ -21,9 +21,7 @@ const Transactions = () => {
   const transactionsList = transactions.map((transaction, index) => {
     return (
       <li className="transaction" key={index}>
-        <p>
-          <strong>{transaction.date}</strong>
-        </p>
+        <p className="transaction-date">{transaction.date}</p>
         <Link to={`/transactions/${index}`}>
           <p>{transaction.item_name}</p>
         </Link>
