@@ -37,3 +37,10 @@ It's all up to you. The possibilities are endless.
 - [Deployment History](https://app.netlify.com/sites/allocate/deploys)
 - [Trello Board](https://trello.com/b/WoO8fMbp/allocate)
 - [Project Prompt](https://github.com/joinpursuit/budgeting-app-project-prompt)
+
+## Screenshots
+
+![Home Page](https://user-images.githubusercontent.com/794551/181399523-dc5dd47a-de2e-4a0c-979d-8b7bea323412.png)
+![Transactons Page](https://user-images.githubusercontent.com/794551/181399526-ff709261-6271-44b5-b01e-08c67f66f5fa.png)
+![New Transaction Page](https://user-images.githubusercontent.com/794551/181399528-95d6face-acbf-4bd2-a52a-75ea14380931.png)
+![About Page](https://user-images.githubusercontent.com/794551/181399529-cc2aa544-ecd2-4eab-b3b2-ec9f689f0754.png)
