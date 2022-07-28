@@ -1,5 +1,4 @@
 import TransactionNewForm from "../components/TransactionNewForm";
-import "./Edit.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 function New() {

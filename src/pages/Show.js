@@ -1,4 +1,3 @@
-import "./Show.css";
 import TransactionDetails from "../components/TransactionDetails";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 

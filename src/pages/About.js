@@ -21,7 +21,7 @@ const About = () => (
       </p>
       <p>It's all up to you. The possibilities are endless.</p>
     </div>
-    <img class="wordmark" src="./wordmark.png" alt="Allocate Wordmark" />
+    <img className="wordmark" src="./wordmark.png" alt="Allocate Wordmark" />
     <p>
       Created by <a href="https://github.com/scheiber/">Jonathan Scheiber</a>.
     </p>

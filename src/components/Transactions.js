@@ -1,3 +1,4 @@
+import "./Transactions.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";

@@ -1,5 +1,4 @@
 import TransactionEditForm from "../components/TransactionEditForm";
-import "./Edit.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const Edit = () => (
