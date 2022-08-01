@@ -93,7 +93,7 @@ const TransactionNewForm = () => {
         />
         <br />
 
-        <input className="submit" type="submit" />
+        <input className="submit" type="submit" value="Submit"/>
       </form>
       <Link to={`/transactions`}>
         <br />
