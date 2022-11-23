@@ -32,7 +32,7 @@ It's all up to you. The possibilities are endless.
 ## Links
 
 - [Frontend Deployment](https://allocate.netlify.app/)
-- [Backend Deployment](https://allocate-backend.herokuapp.com/)
+- [Backend Deployment](https://allocate.fly.dev/)
 - [Backend Repo](https://github.com/Scheiber/allocate-backend)
 - [Deployment History](https://app.netlify.com/sites/allocate/deploys)
 - [Trello Board](https://trello.com/b/WoO8fMbp/allocate)
