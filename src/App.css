@@ -79,3 +79,7 @@ a {
 a:hover {
   color: white;
 }
+
+ul {
+  padding-inline-start: 0px;
+}
